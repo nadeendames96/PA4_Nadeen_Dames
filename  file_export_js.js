@@ -1,0 +1,16 @@
+Contact number 1 is  
+        Contact information for Monster, Cookie.
+        Contact has 2 phone numbers and 2 labels
+         and 0 emails
+        .
+        Contact number 2 is  
+        Contact information for Music, Don.
+        Contact has 1 phone numbers and 2 labels
+         and 0 emails
+        .
+        Contact number 3 is  
+        Contact information for Franklin, Roosevelt.
+        Contact has 0 phone numbers and 0 labels
+         and 2 emails
+        .
+        
