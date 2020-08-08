@@ -50,6 +50,42 @@ print(len(sesame_street.contacts))
 # print all contacts
 sesame_street.print_all_contacts()
 
-# delete contct from list contacts
-sesame_street.delete_contact(don)
-sesame_street.delete_contact(don)
+
+# using decorator  
+fullname=sesame_street.pretty_name
+print(fullname(roosevelt))
+
+# call save_info method 
+sesame_street.save_file()
+
+# call method read_file to read contact information and print total loaded contacts
+sesame_street.read_data()
+sesame_street.load_data()
+
+# export file by user choose and print file info and error hundling if user enter invalid file
+sesame_street.export_file()
+# create object check if contatt include or not 
+nadeen=Contact("Nadeen","Dames")
+sesame_street.handling_error(nadeen)
+sesame_street.handling_error(don) 
+
+# call method to add file from terminal
+sesame_street.add_contact_terminal()
+sesame_street
+sesame_street.save_file()
+sesame_street.add_contact_terminal()
+sesame_street.save_file()
+
+sesame_street.add(nadeen)
+nadeen.add_email("nadosh@hotmail.com")
+nadeen.add_phone("work","055656")
+# call method to delete contact from terminal
+sesame_street.del_contact_terminal()
+
+# call method generate_report()
+sesame_street.generate_report()
+
+# # delete contct from list contacts
+# sesame_street.delete_contact(don)
+# sesame_street.delete_contact(don)
+
